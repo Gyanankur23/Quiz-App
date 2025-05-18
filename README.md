@@ -31,14 +31,14 @@ An interactive quiz to test your knowledge in **science, technology, programming
 
 ## 📁 Project Structure
 
-Quiz-App/ ├── index.html         # Main HTML structure ├── quiz.css           # Tailwind CSS + custom styles ├── quiz.js            # Core quiz logic ├── README.md          # Project documentation └── assets/            # Images, icons, etc.
+Quiz-App/ ├── quiz.html         # Main HTML structure ├── quiz.css           # Tailwind CSS + custom styles ├── quiz.js            # Core quiz logic ├── README.md          # Project documentation └── assets/            # Images, icons, etc.
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML, Tailwind CSS, JavaScript  
-- **Hosting:** [Vercel](https://vercel.com) / [Netlify](https://netlify.com) / GitHub Pages  
+- **Hosting:**  GitHub Pages  
 
 ---
 
@@ -50,7 +50,7 @@ Quiz-App/ ├── index.html         # Main HTML structure ├── quiz.css 
    git clone https://github.com/Gyanankur23/Quiz-App.git
    cd Quiz-App
 
-2. Open index.html in your browser
+2. Open quiz.html in your browser
 (Optional: Serve with local server)
 
 npx serve
