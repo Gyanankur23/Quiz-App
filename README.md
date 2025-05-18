@@ -74,7 +74,3 @@ Built by @Gyanankur23
 Inspired by modern UI principles & interactive functionality using Tailwind CSS
 
 Contributions and feedback are welcome! Feel free to open an issue or submit a pull request.
-
-
-Let me know if you'd like this formatted in dark mode preview or want badges (like build status, license, etc.) added!
-
