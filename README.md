@@ -1,5 +1,3 @@
-Here's your refined README.md formatted to GitHub markdown standards, with clear sections, corrected formatting, and improved readability:
-
 # 📝 Science & Technology Quiz App
 
 Welcome to the **Science & Technology Quiz App**!  
