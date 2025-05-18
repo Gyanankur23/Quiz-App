@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science & Tech Quiz</title>
+    <script src="quiz.js" defer></script>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="bg-blue-600 text-white p-4 text-center text-xl font-bold">
+        Science & Technology Quiz
+    </nav>
+    <main class="container mx-auto mt-6 p-4 text-center">
+        <div class="flex justify-between items-center">
+            <span id="difficulty" class="text-lg font-semibold">Difficulty: Easy</span>
+            <button id="theme-toggle" class="bg-gray-700 text-white px-4 py-2 rounded">🌞</button>
+        </div>
+        
+        <!-- Timer -->
+        <div id="timer" class="mt-4 text-lg font-bold">Time: 0s</div>
+
+        <!-- Start Quiz Button -->
+        <button id="start-quiz" class="bg-blue-500 text-white px-6 py-2 rounded mt-4">Start Quiz</button>
+
+        <!-- Quiz Section -->
+        <div id="quiz-container" class="mt-6 hidden">
+            <h3 id="question"></h3>
+            <div id="answer-options"></div>
+            <button id="prev" class="bg-gray-500 text-white px-6 py-2 rounded mt-4 hidden">Previous</button>
+            <button id="next" class="bg-green-500 text-white px-6 py-2 rounded mt-4 hidden">Next</button>
+            <button id="submit-btn" class="bg-red-500 text-white px-6 py-2 rounded mt-4 hidden">Submit</button>
+        </div>
+
+        <div id="feedback"></div>
+        <div id="score-container" class="mt-6 hidden">
+            <h2 class="text-xl font-bold">Final Score: <span id="final-score"></span>/50</h2>
+            <button id="retry-btn" class="bg-red-500 text-white px-6 py-2 rounded">Retry Quiz</button>
+        </div>
+    </main>
+</body>
+</html>
 
