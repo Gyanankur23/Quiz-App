@@ -25,7 +25,7 @@ An interactive quiz to test your knowledge in **science, technology, programming
 
 👉 [**Play the Quiz Here!**](https://gyanankur23.github.io/Quiz-App/)
 
-> *Replace the above link with your actual deployment URL.*
+
 
 ---
 
