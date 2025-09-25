@@ -5,6 +5,7 @@ const questions = [
     { question: "Which programming language is known for its simplicity and readability?", options: ["Java", "C++", "Python", "JavaScript"], answer: "Python", difficulty: "easy" },
     { question: "What does CPU stand for?", options: ["Central Processing Unit", "Computer Primary Unit", "Core Processing Utility", "Central Programming Unit"], answer: "Central Processing Unit", difficulty: "easy" },
     { question: "Which planet has the strongest gravity?", options: ["Earth", "Jupiter", "Neptune", "Mars"], answer: "Jupiter", difficulty: "hard" },
+
     { question: "What does RAM stand for?", options: ["Read Access Memory", "Random Access Memory", "Remote Administrative Module", "Rapid Application Manager"], answer: "Random Access Memory", difficulty: "easy" },
     { question: "Which scientist formulated the laws of motion?", options: ["Einstein", "Galileo", "Newton", "Kepler"], answer: "Newton", difficulty: "medium" },
     { question: "What is the chemical formula for water?", options: ["HO", "O2", "H2O", "CO2"], answer: "H2O", difficulty: "easy" },
