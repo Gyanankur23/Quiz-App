@@ -1,0 +1,62 @@
+/* Light Mode (Default) */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode */
+.dark {
+    background-color: black;
+    color: white;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Hidden Elements */
+.hidden {
+    display: none;
+}
+
+/* Timer Styling */
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Dark Mode - Button Styling */
+.dark #theme-toggle {
+    background-color: #444;
+    color: white;
+}
+
+.dark #theme-toggle::before {
+    content: "🌙";
+}
+
+/* Default Input Styling */
+input[type="number"] {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Dark Mode Input Styling */
+.dark input[type="number"] {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    border: 1px solid #666; /* Slightly lighter border for visibility */
+}
